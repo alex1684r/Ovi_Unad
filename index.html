@@ -7,7 +7,7 @@
 <!--
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #42413C;
+	background-color: #FFFFFF;
 	margin: 0;
 	padding: 0;
 	color: #000;
@@ -40,12 +40,12 @@ a:hover, a:active, a:focus { /* este grupo de selectores proporcionará a un usu
 /* ~~ Este contenedor de anchura fija rodea a todas las demás bloques ~~ */
 .container {
 	width: 960px;
-	background-color: #FFFFFF;
+	background-color: #FAFAFA;
 	margin: 0 auto; /* el valor automático de los lados, unido a la anchura, centra el diseño  */
 }
 /* ~~ No se asigna una anchura al encabezado. Se extenderá por toda la anchura del diseño. ~~ */
 header {
-	background-color: #ADB96E;
+	background-color: #FFFFFF;
 }
 /* ~~ Estas son las columnas para el diseño. ~~ 
 
@@ -61,7 +61,7 @@ header {
 .sidebar1 {
 	float: left;
 	width: 180px;
-	background-color: #EADCAE;
+	background-color: #005883;
 	padding-bottom: 10px;
 }
 .content {
@@ -72,7 +72,7 @@ header {
 aside {
 	float: left;
 	width: 180px;
-	background-color: #EADCAE;
+	background-color: #005883;
 	padding: 10px 0;
 }
 
@@ -95,17 +95,17 @@ ul.nav a, ul.nav a:visited { /* al agrupar estos selectores, se asegurará de qu
 	display: block; /* esto asigna propiedades de bloque al vínculo, lo que provoca que llene todo el LI que lo contiene. Esto provoca que toda el área reaccione a un clic de ratón. */
 	width: 160px;  /*esta anchura hace que se pueda hacer clic en todo el botón para IE6. Puede eliminarse si no es necesario proporcionar compatibilidad con IE6. Calcule la anchura adecuada restando el relleno de este vínculo de la anchura del contenedor de barra lateral. */
 	text-decoration: none;
-	background-color: #C6D580;
+	background-color: #005883;
 }
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* esto cambia el color de fondo y del texto tanto para usuarios que naveguen con ratón como para los que lo hagan con teclado */
-	background-color: #ADB96E;
+	background-color: #005883;
 	color: #FFF;
 }
 
 /* ~~ El pie de página ~~ */
 footer {
 	padding: 10px 0;
-	background-color: #CCC49F;
+	background-color: #F47920;
 	position: relative;/* esto da a IE6 el parámetro hasLayout para borrar correctamente */
 	clear: both; /* esta propiedad de borrado fuerza a .container a conocer dónde terminan las columnas y a contenerlas */
 }
@@ -138,14 +138,14 @@ header, section, footer, aside, article, figure {
 
 <div class="container">
   <header>
-    <a href="#"><img src="img/Logo_unad.png" width="136" height="113"></a>
+    <a href="#"><img src="img/Logo_unad.png" width="132" height="99"></a>
   </header>
   <div class="sidebar1">
     <ul class="nav">
         <li><a href="#">Vínculo uno</a></li>
         <li><a href="#">Vínculo dos</a></li>
         <li><a href="#">Vínculo tres</a></li>
-        <li><a href="#">Vínculo cuatro</a></li>
+        <li><a href="#">Video 5</a></li>
     </ul>
     <aside>
       <p> Los vínculos anteriores muestran una estructura de navegación básica que emplea una lista no ordenada con estilo de CSS. Utilícela como punto de partida y modifique las propiedades para lograr el aspecto deseado. Si necesita menús desplegables, créelos empleando un menú de Spry, un widget de menú de Adobe Exchange u otras soluciones de javascript o CSS.</p>
@@ -153,7 +153,7 @@ header, section, footer, aside, article, figure {
     </aside>
   <!-- end .sidebar1 --></div>
   <article class="content">
-    <h1>Instrucciones</h1>
+    <h1>Administración de Redes</h1>
     <section>
      <h2>Cómo utilizar este documento</h2>
       <p>Tenga en cuenta que la CSS para estos diseños cuenta con numerosos comentarios. Si realiza la mayor parte de su trabajo en la vista Diseño, eche un vistazo al código para obtener sugerencias sobre cómo trabajar con la CSS para diseños fijos. Puede quitar estos comentarios antes de lanzar el sitio. Para obtener más información sobre las técnicas usadas en estos diseños CSS, lea este artículo en el Centro de desarrolladores de Adobe: <a href="http://www.adobe.com/go/adc_css_layouts_es">http://www.adobe.com/go/adc_css_layouts_es</a>.</p>
@@ -165,8 +165,7 @@ header, section, footer, aside, article, figure {
     <section>
       <h2>Sustitución de logotipo</h2>
       <p>Se ha utilizado un marcador de posición de imagen en el header de este diseño, en el que lo más probable es que desee colocar un logotipo. Se recomienda quitar el marcador de posición y reemplazarlo por su propio logotipo vinculado. </p>
-      <p>Tenga en cuenta que si utiliza el inspector de propiedades para navegar hasta la imagen de su logotipo empleando el campo Origen (en lugar de quitar y reemplazar el marcador de posición), deberá quitar el fondo en línea y mostrar las propiedades. Estos estilos en línea sólo se utilizan para hacer que el marcador de posición del logotipo aparezca en los navegadores para fines de demostración. </p>
-      <p>Para quitar los estilos en línea, asegúrese de que el panel Estilos CSS está configurado como Actual. Seleccione la imagen y, en la sección Propiedades del panel Estilos CSS, haga clic con el botón derecho del ratón y elimine las propiedades de visualización y de fondo. (Por supuesto que siempre podrá ir directamente al código y eliminar allí los estilos en línea de la imagen o el marcador de posición.)</p>
+      <p>Tenga en cuenta que si utiliza el inspector de propiedades para navegar hasta la imagen de su logotipo empleando el campo Origen (en lugar de quitar y reemplazar el marcador de posición), deberá quitar el fondo en línea y mostrar las propiedades. Estos estilos en línea sólo se utilizan para hacer que el marcador de posición del logotipo aparezca en los navegadores para fines de demostración.    </p>
     </section>
   <!-- end .content --></article>
   <aside>
