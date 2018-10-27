@@ -7,7 +7,7 @@
 <!--
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, 			    sans-serif;
-	background-color: #FFFFFF;
+	background-color: #999999;
 	margin: 0;
 	padding: 0;
 	color: #000;
@@ -40,7 +40,7 @@ a:hover, a:active, a:focus { /* este grupo de selectores proporcionará a un usu
 /* ~~ Este contenedor de anchura fija rodea a todas las demás bloques ~~ */
 .container {
 	width: 960px;
-	background-color: #FAFAFA;
+	background-color: #FFFFFF;
 	margin: 0 auto; /* el valor automático de los lados, unido a la anchura, centra el diseño  */
 }
 /* ~~ No se asigna una anchura al encabezado. Se extenderá por toda la anchura del diseño. ~~ */
@@ -106,8 +106,10 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* esto cambia el color de fon
 footer {
 	padding: 10px 0;
 	background-color: #F47920;
-	position: relative;/* esto da a IE6 el parámetro hasLayout para borrar correctamente */
+	position: fixed;/* esto da a IE6 el parámetro hasLayout para borrar correctamente */
 	clear: both; /* esta propiedad de borrado fuerza a .container a conocer dónde terminan las columnas y a contenerlas */
+	bottom: 0px;
+	width: inherit;
 }
 /* ~~ Clases float/clear varias ~~ */
 .fltrt {  /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
@@ -128,6 +130,7 @@ footer {
 /*Compatibilidad con HTML 5: define nuevas etiquetas HTML 5 como display:block para que los navegadores sepan cómo procesar las etiquetas correctamente. */
 header, section, footer, aside, article, figure {
 	display: block;
+	/* [disabled]position: fixed; */
 }
 -->
 </style><!--[if lt IE 9]>
@@ -149,8 +152,7 @@ header, section, footer, aside, article, figure {
         <li><a href="#">AUTORES</a></li>
     </ul>
     <aside>
-      <p> Los vínculos anteriores muestran una estructura de navegación básica que emplea una lista no ordenada con estilo de CSS. Utilícela como punto de partida y modifique las propiedades para lograr el aspecto deseado. Si necesita menús desplegables, créelos empleando un menú de Spry, un widget de menú de Adobe Exchange u otras soluciones de javascript o CSS.</p>
-      <p>Si desea que la navegación se sitúe a lo largo de la parte superior, simplemente mueva ul a la parte superior de la página y vuelva a crear el estilo.</p>
+    
     </aside>
   <!-- end .sidebar1 --></div>
   <article class="content">
@@ -179,9 +181,9 @@ header, section, footer, aside, article, figure {
 <p align="center"><a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
   </aside>
   <footer>
-    <p>Este footer contiene la declaración position:relative; para dar a Internet Explorer 6 hasLayout para footer y provocar que se borre correctamente. Si no es necesario proporcionar compatibilidad con IE6, puede quitarlo.</p>
+    <p>Diseñado por: Jhon Alexander Riascos C.</p>
     <address>
-      Contenido de dirección
+      <p align="left">alex_1684@hotmail.com</p>
     </address>
   </footer>
   <!-- end .container --></div>
