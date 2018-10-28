@@ -160,13 +160,28 @@ header, section, footer, aside, article, figure {
   <div class="sidebar1">
     <ul class="nav">
     	<li><a href="../index.html">INICIO</a></li>
-        <li><a href="../lecturas.html">LECTURAS</a></li>
-        <li><a href="../multimedia.html">MULTIMEDIA</a>
-        	<ul>
-            	<li><a href="multi1.html">VIDEO DE APOYO 1</a></li>
+        <li><a href="../lecturas.html">LECTURAS</a>
+       		<ul>
+                <li><a href="lect1.html">¿Qué es una red?</a></li>
+                <li><a href="lect2.html">Dispositivos de red</a></li>
+                <li><a href="lect3.html">Administración de redes</a></li>
+                <li><a href="lect4.html">Herramientas</a></li>
+                <li><a href="lect5.html">Amenazas de red</a></li>
             </ul>
         </li>
-        <li><a href="../actividades.html">ACTIVIDADES</a></li>
+        <li><a href="../multimedia.html">MULTIMEDIA</a>
+        	<ul>
+            	<li><a href="multi1.html">¿Qué es una red?</a></li>
+                <li><a href="multi2.html">Dispositivos de red</a></li>
+            </ul>
+        </li>
+        <li><a href="../actividades.html">ACTIVIDADES</a>
+        	<ul>
+            	<li><a href="act1.html">Actividad 1</a></li>
+                <li><a href="act2.html">Actividad 2</a></li>
+                <li><a href="act3.html">Actividad 3</a></li>
+            </ul>
+        </li>
         <li><a href="../autor.html">AUTOR</a></li>
     </ul>
     <aside>
