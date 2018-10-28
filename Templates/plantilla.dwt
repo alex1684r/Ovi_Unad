@@ -18,6 +18,7 @@ body {
 ul, ol, dl { /* Debido a las diferencias existentes entre los navegadores, es recomendable no añadir relleno ni márgenes en las listas. Para lograr coherencia, puede especificar las cantidades deseadas aquí o en los elementos de lista (LI, DT, DD) que contienen. Recuerde que lo que haga aquí se aplicará en cascada en la lista .nav, a no ser que escriba un selector más específico. */
 	padding: 0;
 	margin: 0;
+	list-style:none;
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;	 /* la eliminación del margen superior resuelve un problema que origina que los márgenes escapen del bloque contenedor. El margen inferior restante lo mantendrá separado de los elementos de que le sigan.  */
@@ -104,6 +105,14 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* esto cambia el color de fon
 	color: #FFF;
 }
 
+.nav li ul{
+	display:none;
+}
+
+.nav li:hover > ul{
+	display:block;	
+	
+}
 /* ~~ El pie de página ~~ */
 footer {
 	padding: 10px 0;
@@ -152,7 +161,11 @@ header, section, footer, aside, article, figure {
     <ul class="nav">
     	<li><a href="../index.html">INICIO</a></li>
         <li><a href="../lecturas.html">LECTURAS</a></li>
-        <li><a href="../multimedia.html">MULTIMEDIA</a></li>
+        <li><a href="../multimedia.html">MULTIMEDIA</a>
+        	<ul>
+            	<li><a href="multi1.html">VIDEO DE APOYO 1</a></li>
+            </ul>
+        </li>
         <li><a href="../actividades.html">ACTIVIDADES</a></li>
         <li><a href="../autor.html">AUTOR</a></li>
     </ul>
