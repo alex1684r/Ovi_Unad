@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>:::Admininistración de redes:::</title>
+<!-- TemplateEndEditable -->
 <style type="text/css">
 <!--
 body {
@@ -135,21 +137,24 @@ header, section, footer, aside, article, figure {
 -->
 </style><!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]--></head>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
 
 <body>
 
 <div class="container">
   <header>
-    <a href="#"><img src="img/logoUNAD.png" width="315" height="67"></a>
+    <a href="#"><img src="../img/logoUNAD.png" width="315" height="67"></a>
   </header>
   <div class="sidebar1">
     <ul class="nav">
-    	<li><a href="index.html">INICIO</a></li>
-        <li><a href="lecturas.html">LECTURAS</a></li>
-        <li><a href="multimedia.html">MULTIMEDIA</a></li>
-        <li><a href="actividades.html">ACTIVIDADES</a></li>
-        <li><a href="autores.html">AUTORES</a></li>
+    	<li><a href="../index.html">INICIO</a></li>
+        <li><a href="../lecturas.html">LECTURAS</a></li>
+        <li><a href="../multimedia.html">MULTIMEDIA</a></li>
+        <li><a href="../actividades.html">ACTIVIDADES</a></li>
+        <li><a href="../autores.html">AUTORES</a></li>
     </ul>
     <aside>
     
